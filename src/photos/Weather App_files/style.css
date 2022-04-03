@@ -1,0 +1,139 @@
+html {
+  font-size: 15px;
+  height: 101%;
+}
+
+body {
+  background: url(https://unsplash.imgix.net/23/pink-sky.JPG?fit=crop&fm=jpg&h=700&q=75&w=1050)
+    center center / cover fixed;
+  color: #ffff;
+  font-family: $font-stack;
+  font-size: 1.5rem;
+  line-height: 1.6;
+}
+
+.container {
+  background: $container-background;
+  border-radius: 0.5rem;
+  box-shadow: $shadow1;
+  margin: 5rem auto;
+  min-height: 200px;
+  overflow: hidden;
+}
+
+body {
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28 px;
+  margin-bottom: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+  color: rgb(135, 135, 135);
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.weather-app-wrapper {
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.weather-app {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+
+.overview {
+  margin-bottom: 20px;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+  float: left;
+}
+
+.btn {
+  color: #f1f1f1;
+  background-color: #9fd3c7;
+  border-radius: 1px solid #9fd3c7;
+}
+
+.btn:hover {
+  background-color: #f1f1f1;
+  color: #9fd3c7;
+}
+.weather-temperature strong {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+  display: float;
+}
+
+.feels-like {
+  color: rgb(135, 135, 135);
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.units {
+  color: #000;
+}
+
+.weather-forecast {
+  margin: 20px;
+  text-align: center;
+  color: #0000;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+weather-forecast-temperature {
+  font-size: 13px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}
+
+small {
+  display: block;
+  margin: 10px auto;
+
+  opacity: 0.5;
+}
+
+a {
+  color: #9fd3c7;
+}
