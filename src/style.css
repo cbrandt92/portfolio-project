@@ -68,6 +68,17 @@ p {
   line-height: 27px;
 }
 
+nav a {
+  text-decoration: none;
+  color: var(--branding-color);
+  transition: all 100ms ease-in-out;
+}
+
+.btn-branding:hover,
+nav li.active a {
+  color: var(--secondary-color);
+}
+
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
