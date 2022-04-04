@@ -56,7 +56,7 @@ p {
   font-family: var(--heading-font-family);
   font-weight: normal;
   line-height: 2px;
-  font-size: 24px;
+  font-size: 35px;
 }
 
 .btn-branding {
@@ -193,7 +193,10 @@ footer .contact-box p {
   }
 
   h2 {
-    font-size: 35px;
+    font-size: 40px;
+  }
+  .hero h2 {
+    font-size: 20px;
   }
 
   h4 {
@@ -219,6 +222,6 @@ footer .contact-box p {
   }
 
   footer .contact-box {
-    padding: 0;
+    padding: 10px;
   }
 }
