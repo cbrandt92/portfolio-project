@@ -224,4 +224,8 @@ footer .contact-box p {
   footer .contact-box {
     padding: 10px;
   }
+
+  img {
+    height: 80%;
+  }
 }
